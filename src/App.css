@@ -1,38 +1,98 @@
-.App {
+body {
+  padding: 50px 0;
+  background-color: #222;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #fff;
+  text-transform: uppercase;
+}
+h2{
+margin:0px;
+
+
+}
+header {
+  margin-bottom: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img {
+  max-width: 120px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content {
+  background-color: rgb(43, 43, 43);
+  padding: 10px;
+  border-radius: 7px;
+   text-align: center;
+    
+    margin:40px 280px ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content .table {
+  margin-bottom: 0;
 }
-
-.App-link {
-  color: #61dafb;
+.content .table td, .content .table th {
+  vertical-align: middle;
 }
+.content .table .mRight {
+  margin-right: 20px;
+}
+.content .row {
+  margin-bottom: 20px;
+  margin-left:30px; 
+}
+.content .row h3 {
+  
+}
+.content .row .currency-flag {
+  background: url('') no-repeat left center;
+  background-size: 30px auto;
+}
+.content .row-select-currency {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .content .currency-from-input {
+    position: relative;
+    padding-left: 20px;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  .content .currency-to-input {
+    padding-left: 20px;
+ }
+}
+.message {
+  text-align: center;
+}
+.message:only-child {
+  margin: 0;
+}
+.btn-sm {
+  margin-right: 8px;
+}
+.form-inline {
+  margin: 10px auto;
+  width: 235px;
+}
+.form-inline .btn-default {
+  margin-left: 5px;
+}
+.credits {
+  text-align: center;
+  color: #fff;
+  padding: 70px;
+  opacity: 0.2;
+  transition: opacity 0.3s linear;
+}
+.credits:hover {
+  opacity: 1;
+}
+.credits a {
+  color: #fff;
+}
+.btn-convert{
+  width:50%;
+  padding:10px;
+  background-color: rgb(36, 66, 41);
+  
 }
