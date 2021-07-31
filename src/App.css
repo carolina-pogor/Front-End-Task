@@ -8,74 +8,19 @@ h1 {
   color: #fff;
   text-transform: uppercase;
 }
-h2{
-margin:0px;
-
-
-}
 header {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 header img {
   max-width: 120px;
 }
 
-.content .table {
-  margin-bottom: 0;
-}
-.content .table td, .content .table th {
-  vertical-align: middle;
-}
-.content .table .mRight {
-  margin-right: 20px;
-}
-
-.content .row .currency-flag {
-  background: url('') no-repeat left center;
-  background-size: 30px auto;
-}
-.content .row-select-currency {
-  text-align: center;
-}
 @media (min-width: 768px) {
   .inputValue {
     position: relative;
     padding-left: 20px;
  }
-
-  .content .currency-to-input {
-    padding-left: 20px;
- }
-}
-.message {
-  text-align: center;
-}
-.message:only-child {
-  margin: 0;
-}
-.btn-sm {
-  margin-right: 8px;
-}
-.form-inline {
-  margin: 10px auto;
-  width: 235px;
-}
-.form-inline .btn-default {
-  margin-left: 5px;
-}
-.credits {
-  text-align: center;
-  color: #fff;
-  padding: 70px;
-  opacity: 0.2;
-  transition: opacity 0.3s linear;
-}
-.credits:hover {
-  opacity: 1;
-}
-.credits a {
-  color: #fff;
 }
 
 .currencySelect{
@@ -101,6 +46,8 @@ header img {
     flex-direction: row;
     background-color: #598154;
     padding: 0.3em;
+    border-radius: 5px;
+    
 }
 .formInput:hover .currencySelect {background-color: #476942;}
 
@@ -110,7 +57,7 @@ header img {
   background-color: #353535;
   margin-top: 1em;
   margin-bottom: 1em;
-  padding: 1em;
+  padding: 2em;
 }
 #container {
   width: 100vw;
@@ -121,10 +68,22 @@ header img {
   flex-direction: column;
 }
 h3{
-  margin-bottom: 8px;
-  margin-top: 20px;
   font-size: 13px;
   color: rgb(134, 134, 134);
   font-family: 'Roboto', sans-serif;
 
+}
+@media screen and (max-width: 600px) {
+  
+  
+  .content {
+      width: 80%;
+      align-items: center;
+      margin-right:10px;
+  }
+}
+p{
+  font-size: 15px;
+  color: rgb(207, 207, 207);
+  font-family: 'Roboto', sans-serif;
 }
