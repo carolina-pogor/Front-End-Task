@@ -16,7 +16,7 @@ const data={
           "CharCode": "EUR",
           "Nominal": "1",
           "Name": "Euro",
-          "Value": "21.2832"
+          "Value": "21.1905"
        },
        {
           "@ID": "44",
@@ -24,7 +24,7 @@ const data={
           "CharCode": "USD",
           "Nominal": "1",
           "Name": "Dolar S.U.A.",
-          "Value": "17.9234"
+          "Value": "17.9528"
        },
        {
           "@ID": "36",

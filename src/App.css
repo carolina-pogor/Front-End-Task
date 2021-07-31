@@ -8,91 +8,82 @@ h1 {
   color: #fff;
   text-transform: uppercase;
 }
-h2{
-margin:0px;
-
-
-}
 header {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 header img {
   max-width: 120px;
 }
-.content {
-  background-color: rgb(43, 43, 43);
-  padding: 10px;
-  border-radius: 7px;
-   text-align: center;
-    
-    margin:40px 280px ;
-}
-.content .table {
-  margin-bottom: 0;
-}
-.content .table td, .content .table th {
-  vertical-align: middle;
-}
-.content .table .mRight {
-  margin-right: 20px;
-}
-.content .row {
-  margin-bottom: 20px;
-  margin-left:30px; 
-}
-.content .row h3 {
-  
-}
-.content .row .currency-flag {
-  background: url('') no-repeat left center;
-  background-size: 30px auto;
-}
-.content .row-select-currency {
-  text-align: center;
-}
+
 @media (min-width: 768px) {
-  .content .currency-from-input {
+  .inputValue {
     position: relative;
     padding-left: 20px;
  }
+}
 
-  .content .currency-to-input {
-    padding-left: 20px;
- }
+.currencySelect{
+  font-size: 1.3em;
+  border: 0px;
+  outline: 0px;
+  background-color: #598154;
+  color: rgb(26, 24, 24);
+  font-family: 'Roboto', sans-serif;
 }
-.message {
-  text-align: center;
+.valInput{
+  border-style: inset;
+    border-color: #b7d5d4;
+    border-width: 1px;
+    outline: 0px;
+    font-size: 1.2em;
+    background-color: #eeeeee;
+    width: 100%;
 }
-.message:only-child {
-  margin: 0;
+.formInput{
+  display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #598154;
+    padding: 0.3em;
+    border-radius: 5px;
+    
 }
-.btn-sm {
-  margin-right: 8px;
+.formInput:hover .currencySelect {background-color: #476942;}
+
+.content {
+  width: 500px;
+  text-align: left;
+  background-color: #353535;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 2em;
 }
-.form-inline {
-  margin: 10px auto;
-  width: 235px;
+#container {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.form-inline .btn-default {
-  margin-left: 5px;
+h3{
+  font-size: 13px;
+  color: rgb(134, 134, 134);
+  font-family: 'Roboto', sans-serif;
+
 }
-.credits {
-  text-align: center;
-  color: #fff;
-  padding: 70px;
-  opacity: 0.2;
-  transition: opacity 0.3s linear;
-}
-.credits:hover {
-  opacity: 1;
-}
-.credits a {
-  color: #fff;
-}
-.btn-convert{
-  width:50%;
-  padding:10px;
-  background-color: rgb(36, 66, 41);
+@media screen and (max-width: 600px) {
   
+  
+  .content {
+      width: 80%;
+      align-items: center;
+      margin-right:10px;
+  }
+}
+p{
+  font-size: 15px;
+  color: rgb(207, 207, 207);
+  font-family: 'Roboto', sans-serif;
 }
